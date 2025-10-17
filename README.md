@@ -1,5 +1,16 @@
-# Full-Stack-Week-8
+# React + Vite
 
-I followed a MongoDB MERN tutorial found here, https://www.mongodb.com/resources/languages/mern-stack-tutorial. I struggled for a few days with the server connection. I again was using MongoDB Compass for the database. The tutorial was set up as an employee database. The new connection string I was attempting to put in was not working. I then went into aconnection JSON file I believe I used for a previous week and that one was working. Once I overcame the hurdle of the server connection I then began running into issues with syntax. I used Visual Studio Code to compile the MERN project. Tailwind framework had to be included for the REACT application. I believe plugins became an issue when I got to this point. I am unsure if I had to use intellisense to mske dependencies or files compatabile but I began to run into continuous .JS and .JSX issues. 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-I do feel like I did learn a lot during this final. I was having fun with the overall full stack build. I am disappointed I could not troubleshoot it properly. I did begin to use VSC AI assistant to try to troubleshoot but it obviously did not help. I am unsure if it made it worse. 
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
