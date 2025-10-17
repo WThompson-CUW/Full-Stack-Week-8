@@ -1,1 +1,5 @@
 # Full-Stack-Week-8
+
+I followed a MongoDB MERN tutorial found here, https://www.mongodb.com/resources/languages/mern-stack-tutorial. I struggled for a few days with the server connection. I again was using MongoDB Compass for the database. The tutorial was set up as an employee database. The new connection string I was attempting to put in was not working. I then went into aconnection JSON file I believe I used for a previous week and that one was working. Once I overcame the hurdle of the server connection I then began running into issues with syntax. I used Visual Studio Code to compile the MERN project. Tailwind framework had to be included for the REACT application. I believe plugins became an issue when I got to this point. I am unsure if I had to use intellisense to mske dependencies or files compatabile but I began to run into continuous .JS and .JSX issues. 
+
+I do feel like I did learn a lot during this final. I was having fun with the overall full stack build. I am disappointed I could not troubleshoot it properly. I did begin to use VSC AI assistant to try to troubleshoot but it obviously did not help. I am unsure if it made it worse. 
